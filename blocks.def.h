@@ -7,6 +7,7 @@ static const Block blocks[] = {
 	{"Vol: ", 	"~/.config/status/getvol",	1,			44},
 	/*{"Bat: ", 	"~/.config/status/getbat",	5,			0},*/
 	{"Date: ", 	"~/.config/status/getdt",	10,			0},
+	{" ", 		"",				0,			0}, /* space status monitor and end of bar */
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
