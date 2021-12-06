@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Requires ping
+
+loc=${1:-linux.org}
+
+ping -c 1 $loc | awk -F"=" 'NR==2{print $4}'
