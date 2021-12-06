@@ -1,3 +1,5 @@
 #!/bin/sh
 
-# TODO
+# Requires amixer (alsa-utils)
+
+amixer get Master | awk 'NR==6{print $5" "$6}'

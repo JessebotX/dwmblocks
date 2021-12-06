@@ -2,4 +2,4 @@
 
 # stdout current time
 
-date +'(%a) %b %d %I:%M%P '
+date +'(%a) %b %d %I:%M%P'
